@@ -7351,7 +7351,7 @@ nav .brand-logo {
   position: absolute;
   color: #fff;
   display: inline-block;
-  font-size: 2.1rem;
+  font-size: 3rem;
   padding: 0;
   white-space: nowrap;
 }
@@ -7520,7 +7520,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
