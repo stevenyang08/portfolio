@@ -6,12 +6,15 @@
   
 </head>
 <body>
-
-  <%= render 'layouts/nav' %>
   
-  <%= render 'layouts/messages' %>
-
-  <%= yield %>
+  <header>
+    <%= render 'layouts/nav' %>
+  </header>
+  
+  <main>
+    <%= render 'layouts/messages' %>
+    <%= yield %>
+  </main>
   
   <%= render 'layouts/footer' %>
   

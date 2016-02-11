@@ -1,224 +1,222 @@
-<main>
-  <div id="index-banner" class="parallax-container">
-    <div class="parallax"><%= image_tag("background2.jpg", alt: "rails projects banner img") %></div>
-  </div>
-  
-  <div class="container">
-    <div class="section">
-  
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12">
-          <div class="icon-block">
-            
-            <!--Header portfolio-->
-            <div class="center">
-              <h2 class="red-text">Rails Projects</h2>
-              <p class="grey-text">I created the following projects by consulting countless online references, online bootcamps, and books.</p>
-            </div>
-            
-            <!-- TalkMore -->
-            <div class="row">
-              <div class="col s12">
-                <hr/>
-                <br/>
-                <div class="col s12 l7 flow-text center">
-                  <h3>TalkMore</h3>
-                  <p class="project-description">Challenged to build a Gmail-like chat feature in a Rails app.</p>
-                  <ol>
-                    <li>Cloned <%= link_to "Chatty", "https://github.com/Joseph-N/chatty" %> repository</li>
-                    <li>Instant chat app built with Private Pub</li>
-                    <li>UI built with CSS, SASS, and Bootstrap</li>
-                  </ol>
-                  <ul>
-                    <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
-                  </ul>
-                </div>
-                <div class="col s12 l5">
-                  <%= image_tag("TalkMore.png", alt: "TalkMore project img", class: "responsive-img z-depth-2") %>
-                </div>
-              </div>
-            </div>
-            <!--End TalkMore-->
-            
-            <!-- Blog App BDD -->
-            <div class="row">
-              <div class="col s12">
-                <hr/>
-                <br/>
-                <div class="col s12 l7 flow-text center">
-                  <h3>Blog App BDD</h3>
-                  <p class="project-description">Developed to learn Behavior Driven Development.</p>
-                  <ol>
-                    <li>Multi-tenancy architectural design</li>
-                    <li>Datepicker project deadline feature</li>
-                    <li>UI built with CSS, SASS, and Bootstrap</li>
-                    <li>Integrated: SendGrid, Stripe, and AWS</li>
-                  </ol>
-                  <ul>
-                    <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
-                  </ul>
-                </div>
-                <div class="col s12 l5">
-                  <%= image_tag("Blog-App-BDD.png", class: "responsive-img z-depth-2") %>
-                </div>
-              </div>
-            </div>
-            <!--End Blog App BDD-->
-            
-            <!-- Crew Panda -->
-            <div class="row">
-              <div class="col s12">
-                <hr/>
-                <br/>
-                <div class="col s12 l7 flow-text center">
-                  <h3>Crew Panda</h3>
-                  <p class="project-description">Manage company projects with this SaaS project management app.</p>
-                  <ol>
-                    <li>Multi-tenancy architectural design</li>
-                    <li>Datepicker project deadline feature</li>
-                    <li>UI built with CSS, SASS, and Bootstrap</li>
-                    <li>Integrated: SendGrid, Stripe, and AWS</li>
-                  </ol>
-                  <ul>
-                    <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
-                  </ul>
-                </div>
-                <div class="col s12 l5">
-                  <%= image_tag("CrewPanda.png", class: "responsive-img z-depth-2") %>
-                </div>
-              </div>
-            </div>
-            <!--End Crew Panda-->
-            
-            <!-- Photo App -->
-            <div class="row">
-              <div class="col s12">
-                <hr/>
-                <br/>
-                <div class="col s12 l7 flow-text center">
-                  <h3>Photo App</h3>
-                  <p class="project-description">Share and discover photos from other users.</p>
-                  <ol>
-                    <li>Customized user authenitcation with Devise</li>
-                    <li>Datepicker project deadline feature</li>
-                    <li>UI built with CSS, SASS, and Bootstrap</li>
-                    <li>Integrated: Heroku, Carrierwave, Mini Magick, Fog, Stripe, and AWS</li>
-                  </ol>
-                  <ul>
-                    <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
-                  </ul>
-                </div>
-                <div class="col s12 l5">
-                  <%= image_tag("Photo-App.png", class: "responsive-img z-depth-2") %>
-                </div>
-              </div>
-            </div>
-            <!--End Photo App-->
-            
-            <!-- SocialStock -->
-            <div class="row">
-              <div class="col s12">
-                <hr/>
-                <br/>
-                <div class="col s12 l7 flow-text center">
-                  <h3>SocialStock</h3>
-                  <p class="project-description">Search and add stocks to your portfolio. Follow your friends and their stocks.</p>
-                  <ol>
-                    <li>Built in less than a day</li>
-                    <li>Built search function with AJAX, jQuery, and JavaScript</li>
-                    <li>Built 'follow friends' functionality</li>
-                    <li>Integrated: Yahoo API, Devise, AWS</li>
-                  </ol>
-                  <ul>
-                    <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
-                  </ul>
-                </div>
-                <div class="col s12 l5">
-                  <%= image_tag("SocialStock.png", class: "responsive-img z-depth-2") %>
-                </div>
-              </div>
-            </div>
-            <!--End SocialStock-->
-            
-            <!-- My Dive Blog -->
-            <div class="row">
-              <div class="col s12">
-                <hr/>
-                <br/>
-                <div class="col s12 l7 flow-text center">
-                  <h3>My Dive Blog</h3>
-                  <p class="project-description">Share or discover amazing diving experiences.</p>
-                  <ol>
-                    <li>Developed with SQLite3, deployed with PostgreSQL</li>
-                    <li>Built user authentication and admin functionality from scratch</li>
-                    <li>Built using Test Driven Development</li>
-                    <li>Integrated: Gravatar, Heroku, AWS</li>
-                  </ol>
-                  <ul>
-                    <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
-                  </ul>
-                </div>
-                <div class="col s12 l5">
-                  <%= image_tag("my-dive-blog.png", class: "responsive-img z-depth-2") %>
-                </div>
-              </div>
-            </div>
-            <!--End My Dive Blog-->
-            
-            <!-- My Veg Recipes -->
-            <div class="row">
-              <div class="col s12">
-                <hr/>
-                <br/>
-                <div class="col s12 l7 flow-text center">
-                  <h3>My Veg Recipes</h3>
-                  <p class="project-description">Share or discover vegetarian recipes.</p>
-                  <ol>
-                    <li>Built using Test Driven Development</li>
-                    <li>Built user authentication from scratch</li>
-                    <li>Built 'like/dislike' feature</li>
-                    <li>Integrated: Gravatar, Heroku, AWS</li>
-                  </ol>
-                  <ul>
-                    <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
-                  </ul>
-                </div>
-                <div class="col s12 l5">
-                  <%= image_tag("MyVegRecipes.png", class: "responsive-img z-depth-2") %>
-                </div>
-              </div>
-            </div>
-            <!--End My Veg Recipes-->
-            
-            <!-- TutorUp! -->
-            <div class="row">
-              <div class="col s12">
-                <hr/>
-                <br/>
-                <div class="col s12 l7 flow-text center">
-                  <h3>TutorUp!</h3>
-                  <p class="project-description">First Rails project ever. Connects both professors and students and grants Premium accounts access to contact details.</p>
-                  <ol>
-                    <li>Built contact form using MVC</li>
-                    <li>Implemented form validations</li>
-                    <li>Built user profiles with Paperclip</li>
-                    <li>Integrated: SendGrid, Heroku, Stripe</li>
-                  </ol>
-                  <ul>
-                    <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
-                  </ul>
-                </div>
-                <div class="col s12 l5">
-                  <%= image_tag("Tutor-Up!.png", class: "responsive-img z-depth-2") %>
-                </div>
-              </div>
-            </div>
-            <!--End TutorUp!-->
-            
+<div id="index-banner" class="parallax-container">
+  <div class="parallax"><%= image_tag("background2.jpg", alt: "rails projects banner img") %></div>
+</div>
+
+<div class="container">
+  <div class="section">
+
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s12">
+        <div class="icon-block">
+          
+          <!--Header portfolio-->
+          <div class="center">
+            <h2 class="red-text">Rails Projects</h2>
+            <p class="grey-text">I created the following projects by consulting countless online references, online bootcamps, and books.</p>
           </div>
+          
+          <!-- TalkMore -->
+          <div class="row">
+            <div class="col s12">
+              <hr/>
+              <br/>
+              <div class="col s12 l7 flow-text center">
+                <h3>TalkMore</h3>
+                <p class="project-description">Challenged to build a Gmail-like chat feature in a Rails app.</p>
+                <ol>
+                  <li>Cloned <%= link_to "Chatty", "https://github.com/Joseph-N/chatty" %> repository</li>
+                  <li>Instant chat app built with Private Pub</li>
+                  <li>UI built with CSS, SASS, and Bootstrap</li>
+                </ol>
+                <ul>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
+                </ul>
+              </div>
+              <div class="col s12 l5">
+                <%= image_tag("TalkMore.png", alt: "TalkMore project img", class: "responsive-img z-depth-2") %>
+              </div>
+            </div>
+          </div>
+          <!--End TalkMore-->
+          
+          <!-- Blog App BDD -->
+          <div class="row">
+            <div class="col s12">
+              <hr/>
+              <br/>
+              <div class="col s12 l7 flow-text center">
+                <h3>Blog App BDD</h3>
+                <p class="project-description">Developed to learn Behavior Driven Development.</p>
+                <ol>
+                  <li>Multi-tenancy architectural design</li>
+                  <li>Datepicker project deadline feature</li>
+                  <li>UI built with CSS, SASS, and Bootstrap</li>
+                  <li>Integrated: SendGrid, Stripe, and AWS</li>
+                </ol>
+                <ul>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
+                </ul>
+              </div>
+              <div class="col s12 l5">
+                <%= image_tag("Blog-App-BDD.png", class: "responsive-img z-depth-2") %>
+              </div>
+            </div>
+          </div>
+          <!--End Blog App BDD-->
+          
+          <!-- Crew Panda -->
+          <div class="row">
+            <div class="col s12">
+              <hr/>
+              <br/>
+              <div class="col s12 l7 flow-text center">
+                <h3>Crew Panda</h3>
+                <p class="project-description">Manage company projects with this SaaS project management app.</p>
+                <ol>
+                  <li>Multi-tenancy architectural design</li>
+                  <li>Datepicker project deadline feature</li>
+                  <li>UI built with CSS, SASS, and Bootstrap</li>
+                  <li>Integrated: SendGrid, Stripe, and AWS</li>
+                </ol>
+                <ul>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
+                </ul>
+              </div>
+              <div class="col s12 l5">
+                <%= image_tag("CrewPanda.png", class: "responsive-img z-depth-2") %>
+              </div>
+            </div>
+          </div>
+          <!--End Crew Panda-->
+          
+          <!-- Photo App -->
+          <div class="row">
+            <div class="col s12">
+              <hr/>
+              <br/>
+              <div class="col s12 l7 flow-text center">
+                <h3>Photo App</h3>
+                <p class="project-description">Share and discover photos from other users.</p>
+                <ol>
+                  <li>Customized user authenitcation with Devise</li>
+                  <li>Datepicker project deadline feature</li>
+                  <li>UI built with CSS, SASS, and Bootstrap</li>
+                  <li>Integrated: Heroku, Carrierwave, Mini Magick, Fog, Stripe, and AWS</li>
+                </ol>
+                <ul>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
+                </ul>
+              </div>
+              <div class="col s12 l5">
+                <%= image_tag("Photo-App.png", class: "responsive-img z-depth-2") %>
+              </div>
+            </div>
+          </div>
+          <!--End Photo App-->
+          
+          <!-- SocialStock -->
+          <div class="row">
+            <div class="col s12">
+              <hr/>
+              <br/>
+              <div class="col s12 l7 flow-text center">
+                <h3>SocialStock</h3>
+                <p class="project-description">Search and add stocks to your portfolio. Follow your friends and their stocks.</p>
+                <ol>
+                  <li>Built in less than a day</li>
+                  <li>Built search function with AJAX, jQuery, and JavaScript</li>
+                  <li>Built 'follow friends' functionality</li>
+                  <li>Integrated: Yahoo API, Devise, AWS</li>
+                </ol>
+                <ul>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
+                </ul>
+              </div>
+              <div class="col s12 l5">
+                <%= image_tag("SocialStock.png", class: "responsive-img z-depth-2") %>
+              </div>
+            </div>
+          </div>
+          <!--End SocialStock-->
+          
+          <!-- My Dive Blog -->
+          <div class="row">
+            <div class="col s12">
+              <hr/>
+              <br/>
+              <div class="col s12 l7 flow-text center">
+                <h3>My Dive Blog</h3>
+                <p class="project-description">Share or discover amazing diving experiences.</p>
+                <ol>
+                  <li>Developed with SQLite3, deployed with PostgreSQL</li>
+                  <li>Built user authentication and admin functionality from scratch</li>
+                  <li>Built using Test Driven Development</li>
+                  <li>Integrated: Gravatar, Heroku, AWS</li>
+                </ol>
+                <ul>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
+                </ul>
+              </div>
+              <div class="col s12 l5">
+                <%= image_tag("my-dive-blog.png", class: "responsive-img z-depth-2") %>
+              </div>
+            </div>
+          </div>
+          <!--End My Dive Blog-->
+          
+          <!-- My Veg Recipes -->
+          <div class="row">
+            <div class="col s12">
+              <hr/>
+              <br/>
+              <div class="col s12 l7 flow-text center">
+                <h3>My Veg Recipes</h3>
+                <p class="project-description">Share or discover vegetarian recipes.</p>
+                <ol>
+                  <li>Built using Test Driven Development</li>
+                  <li>Built user authentication from scratch</li>
+                  <li>Built 'like/dislike' feature</li>
+                  <li>Integrated: Gravatar, Heroku, AWS</li>
+                </ol>
+                <ul>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
+                </ul>
+              </div>
+              <div class="col s12 l5">
+                <%= image_tag("MyVegRecipes.png", class: "responsive-img z-depth-2") %>
+              </div>
+            </div>
+          </div>
+          <!--End My Veg Recipes-->
+          
+          <!-- TutorUp! -->
+          <div class="row">
+            <div class="col s12">
+              <hr/>
+              <br/>
+              <div class="col s12 l7 flow-text center">
+                <h3>TutorUp!</h3>
+                <p class="project-description">First Rails project ever. Connects both professors and students and grants Premium accounts access to contact details.</p>
+                <ol>
+                  <li>Built contact form using MVC</li>
+                  <li>Implemented form validations</li>
+                  <li>Built user profiles with Paperclip</li>
+                  <li>Integrated: SendGrid, Heroku, Stripe</li>
+                </ol>
+                <ul>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93' %></li>
+                </ul>
+              </div>
+              <div class="col s12 l5">
+                <%= image_tag("Tutor-Up!.png", class: "responsive-img z-depth-2") %>
+              </div>
+            </div>
+          </div>
+          <!--End TutorUp!-->
+          
         </div>
       </div>
     </div>
   </div>
-</main>
+</div>
