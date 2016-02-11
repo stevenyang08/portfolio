@@ -15,4 +15,7 @@ class PagesController < ApplicationController
   def videogames
   end
   
+  def about
+  end
+  
 end
