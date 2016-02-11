@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get '/rails', to: 'pages#rails'
   get '/showcase', to: 'pages#showcase'
   get '/about', to: 'pages#about'
+  get '/blog', to: 'pages#blog'
   
 end
