@@ -1,28 +1,15 @@
-== README
+# Kelsonic
+## Ruby on Rails web developer in San Francisco
+### Welcome
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to my portfolio website! After graduating from John Cabot University in 
+Rome, Italy with degrees in International Affairs and International Business, 
+I soon started getting into programming.
 
-Things you may want to cover:
+Currently, I am a junior web developer that is attending Dev Bootcamp in San Francisco. 
+While I am only on the first week of DBC, I have followed several Udemy online bootcamps 
+for both Ruby on Rails and Unity/C# programming.
 
-* Ruby version
+### Connect
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+My email is kgadams93@gmail.com. Please feel free to reach out to me if you have any questions.
