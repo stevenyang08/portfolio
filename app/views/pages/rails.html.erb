@@ -8,58 +8,59 @@
           
           <!--Header portfolio-->
           <div class="center">
-            <h2 class="red-text text-darken-1">Rails Projects</h2>
+            <h2 class="red-text">Rails Projects</h2>
             <p class="grey-text">I created the following projects by consulting countless online references, online bootcamps, and books.</p>
           </div>
           
-          <!-- TalkMore -->
+          <!-- Tutor Up! -->
           <div class="row">
             <div class="col s12">
               <hr/>
               <br/>
               <div class="col s12 l7 flow-text center">
-                <h3 class="project-header">TalkMore</h3>
-                <p class="project-description">Challenged to build a Gmail-like chat feature in a Rails app.</p>
+                <h3 class="project-header red-text text-darken-2">Tutor Up!</h3>
+                <p class="project-description">First Rails project ever. Connects both professors and students and grants Premium accounts access to contact details.</p>
                 <ol>
-                  <li>Cloned <%= link_to "Chatty", "https://github.com/Joseph-N/chatty" %> repository</li>
-                  <li>Instant chat app built with Private Pub</li>
-                  <li>UI built with CSS, SASS, and Bootstrap</li>
+                  <li>Built contact form using MVC</li>
+                  <li>Implemented form validations</li>
+                  <li>Built user profiles with Paperclip</li>
+                  <li>Integrated: SendGrid, Heroku, Stripe</li>
                 </ol>
                 <ul>
-                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93/talkmore' %></li>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93/TutorUp' %></li>
                 </ul>
               </div>
               <div class="col s12 l5">
-                <%= image_tag("TalkMore.png", alt: "TalkMore project img", class: "responsive-img") %>
+                <%= image_tag("TutorUp.png", class: "responsive-img") %>
               </div>
             </div>
           </div>
-          <!--End TalkMore-->
+          <!--End Tutor Up!-->
           
-          <!-- Blog App BDD -->
+          <!-- My Dive Blog -->
           <div class="row">
             <div class="col s12">
               <hr/>
               <br/>
               <div class="col s12 l7 flow-text center">
-                <h3 class="project-header">Blog App BDD</h3>
-                <p class="project-description">Developed to learn Behavior Driven Development.</p>
+                <h3 class="project-header red-text text-darken-2">My Dive Blog</h3>
+                <p class="project-description">Share or discover amazing diving experiences.</p>
                 <ol>
-                  <li>Multi-tenancy architectural design</li>
-                  <li>Datepicker project deadline feature</li>
-                  <li>UI built with CSS, SASS, and Bootstrap</li>
-                  <li>Integrated: SendGrid, Stripe, and AWS</li>
+                  <li>Developed with SQLite3, deployed with PostgreSQL</li>
+                  <li>Built user authentication and admin functionality from scratch</li>
+                  <li>Built using Test Driven Development</li>
+                  <li>Integrated: Gravatar, Heroku, AWS</li>
                 </ol>
                 <ul>
-                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93/bdd_blogapp' %></li>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93/MyDiveBlog' %></li>
                 </ul>
               </div>
               <div class="col s12 l5">
-                <%= image_tag("BlogAppBDD.png", class: "responsive-img") %>
+                <%= image_tag("MyDiveBlog.png", class: "responsive-img") %>
               </div>
             </div>
           </div>
-          <!--End Blog App BDD-->
+          <!--End My Dive Blog-->
           
           <!-- Crew Panda -->
           <div class="row">
@@ -67,7 +68,7 @@
               <hr/>
               <br/>
               <div class="col s12 l7 flow-text center">
-                <h3 class="project-header">Crew Panda</h3>
+                <h3 class="project-header red-text text-darken-2">Crew Panda</h3>
                 <p class="project-description">Manage company projects with this SaaS project management app.</p>
                 <ol>
                   <li>Multi-tenancy architectural design</li>
@@ -86,13 +87,38 @@
           </div>
           <!--End Crew Panda-->
           
+          <!-- Blog App BDD -->
+          <div class="row">
+            <div class="col s12">
+              <hr/>
+              <br/>
+              <div class="col s12 l7 flow-text center">
+                <h3 class="project-header red-text text-darken-2">Blog App BDD</h3>
+                <p class="project-description">Developed to learn Behavior Driven Development.</p>
+                <ol>
+                  <li>Multi-tenancy architectural design</li>
+                  <li>Datepicker project deadline feature</li>
+                  <li>UI built with CSS, SASS, and Bootstrap</li>
+                  <li>Integrated: SendGrid, Stripe, and AWS</li>
+                </ol>
+                <ul>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93/bdd_blogapp' %></li>
+                </ul>
+              </div>
+              <div class="col s12 l5">
+                <%= image_tag("BlogAppBDD.png", class: "responsive-img") %>
+              </div>
+            </div>
+          </div>
+          <!--End Blog App BDD-->
+          
           <!-- Photo App -->
           <div class="row">
             <div class="col s12">
               <hr/>
               <br/>
               <div class="col s12 l7 flow-text center">
-                <h3 class="project-header">Photo App</h3>
+                <h3 class="project-header red-text text-darken-2">Photo App</h3>
                 <p class="project-description">Share and discover photos from other users.</p>
                 <ol>
                   <li>Customized user authenitcation with Devise</li>
@@ -117,7 +143,7 @@
               <hr/>
               <br/>
               <div class="col s12 l7 flow-text center">
-                <h3 class="project-header">SocialStock</h3>
+                <h3 class="project-header red-text text-darken-2">SocialStock</h3>
                 <p class="project-description">Search and add stocks to your portfolio. Follow your friends and their stocks.</p>
                 <ol>
                   <li>Built in less than a day</li>
@@ -136,30 +162,29 @@
           </div>
           <!--End SocialStock-->
           
-          <!-- My Dive Blog -->
+          <!-- TalkMore -->
           <div class="row">
             <div class="col s12">
               <hr/>
               <br/>
               <div class="col s12 l7 flow-text center">
-                <h3 class="project-header">My Dive Blog</h3>
-                <p class="project-description">Share or discover amazing diving experiences.</p>
+                <h3 class="project-header red-text text-darken-2">TalkMore</h3>
+                <p class="project-description">Challenged to build a Gmail-like chat feature in a Rails app.</p>
                 <ol>
-                  <li>Developed with SQLite3, deployed with PostgreSQL</li>
-                  <li>Built user authentication and admin functionality from scratch</li>
-                  <li>Built using Test Driven Development</li>
-                  <li>Integrated: Gravatar, Heroku, AWS</li>
+                  <li>Cloned <%= link_to "Chatty", "https://github.com/Joseph-N/chatty" %> repository</li>
+                  <li>Instant chat app built with Private Pub</li>
+                  <li>UI built with CSS, SASS, and Bootstrap</li>
                 </ol>
                 <ul>
-                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93/MyDiveBlog' %></li>
+                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93/talkmore' %></li>
                 </ul>
               </div>
               <div class="col s12 l5">
-                <%= image_tag("MyDiveBlog.png", class: "responsive-img") %>
+                <%= image_tag("TalkMore.png", alt: "TalkMore project img", class: "responsive-img") %>
               </div>
             </div>
           </div>
-          <!--End My Dive Blog-->
+          <!--End TalkMore-->
           
           <!-- My Veg Recipes -->
           <div class="row">
@@ -167,7 +192,7 @@
               <hr/>
               <br/>
               <div class="col s12 l7 flow-text center">
-                <h3 class="project-header">My Veg Recipes</h3>
+                <h3 class="project-header red-text text-darken-2">My Veg Recipes</h3>
                 <p class="project-description">Share or discover vegetarian recipes.</p>
                 <ol>
                   <li>Built using Test Driven Development</li>
@@ -185,31 +210,6 @@
             </div>
           </div>
           <!--End My Veg Recipes-->
-          
-          <!-- TutorUp! -->
-          <div class="row">
-            <div class="col s12">
-              <hr/>
-              <br/>
-              <div class="col s12 l7 flow-text center">
-                <h3 class="project-header">TutorUp!</h3>
-                <p class="project-description">First Rails project ever. Connects both professors and students and grants Premium accounts access to contact details.</p>
-                <ol>
-                  <li>Built contact form using MVC</li>
-                  <li>Implemented form validations</li>
-                  <li>Built user profiles with Paperclip</li>
-                  <li>Integrated: SendGrid, Heroku, Stripe</li>
-                </ol>
-                <ul>
-                  <li><i class="fa fa-github"></i> <%= link_to "GitHub Repository", 'https://github.com/kgadams93/TutorUp' %></li>
-                </ul>
-              </div>
-              <div class="col s12 l5">
-                <%= image_tag("TutorUp.png", class: "responsive-img") %>
-              </div>
-            </div>
-          </div>
-          <!--End TutorUp!-->
           
         </div>
       </div>
