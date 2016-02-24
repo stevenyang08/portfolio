@@ -2,6 +2,10 @@ ol {
   list-style-type: circle;
 }
 
+ol li {
+  text-align: left;
+}
+
 .project-description {
   font-size: 0.7em;
 }
