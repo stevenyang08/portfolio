@@ -1,6 +1,6 @@
 class Project < ActiveRecord::Base
   
-  has_many :points
+  has_many :points, dependent: :destroy
   
   validates :title, presence: true, length: { minimum: 2, maximum: 20 }
   validates :description, presence: true, length: { minimum: 2, maximum: 120 }
