@@ -6,8 +6,4 @@ class ProjectsController < ApplicationController
   def create
   end
   
-  def index
-    @projects = Project.all
-  end
-  
 end
