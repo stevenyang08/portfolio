@@ -7,6 +7,8 @@ class PagesController < ApplicationController
   end
   
   def rails
+    @projects = Project.all
+    @points = Point.all
   end
   
   def videogames
