@@ -11,6 +11,7 @@ class PagesController < ApplicationController
   end
   
   def videogames
+    @games = Game.all
   end
   
   def about
