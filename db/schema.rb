@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160228191221) do
+ActiveRecord::Schema.define(version: 20160228213228) do
 
   create_table "games", force: :cascade do |t|
     t.string   "title"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20160228191221) do
     t.string   "live_link"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "month"
   end
 
   create_table "points", force: :cascade do |t|
@@ -38,6 +39,7 @@ ActiveRecord::Schema.define(version: 20160228191221) do
     t.string   "image"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "month"
   end
 
 end
