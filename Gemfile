@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# Use bcrypt for password encryption
+gem 'bcrypt'
 # Automatic Sitemap Generator
 gem 'sitemap_generator'
 # Use Uglifier as compressor for JavaScript assets
