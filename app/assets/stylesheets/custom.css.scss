@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+
+.blog-font {
+  font-family: 'Rubik', sans-serif;
+}
+
 .project-header {
   font-size: 2em;
 }
@@ -36,4 +42,13 @@ ol li {
   font-size: 0.7em;
   line-height: 1.3em;
   font-style: italic;
+}
+
+// About Page
+.card p {
+  line-height: 1.5em;
+}
+
+.card .btn {
+  margin-bottom: 1em;
 }
