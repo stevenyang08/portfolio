@@ -6,7 +6,6 @@ Rails.application.routes.draw do
   get '/videogames', to: 'pages#videogames'
   get '/rails', to: 'pages#rails'
   get '/about', to: 'pages#about'
-  get '/blog', to: 'pages#blog'
   
   resources :blogs
   
