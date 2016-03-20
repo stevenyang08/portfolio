@@ -7,6 +7,11 @@ Rails.application.routes.draw do
   get '/rails', to: 'pages#rails'
   get '/about', to: 'pages#about'
   
+  get '/login', to: 'logins#new'
+  post '/login', to: 'logins#create'
+  get '/logout', to: 'logins#destroy'
+  
   resources :blogs
+  resources :users
   
 end
