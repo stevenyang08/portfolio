@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
   
-  resources :users
-  resources :blogs
   root 'pages#home'
   
   get '/devbootcamp', to: 'pages#devbootcamp'
@@ -9,5 +7,7 @@ Rails.application.routes.draw do
   get '/rails', to: 'pages#rails'
   get '/about', to: 'pages#about'
   get '/blog', to: 'pages#blog'
+  
+  resources :blogs
   
 end
