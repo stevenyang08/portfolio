@@ -2961,7 +2961,7 @@ table.centered thead tr th, table.centered tbody tr td {
 }
 
 thead {
-  border-bottom: 1px solid #d0d0d0;
+  border-bottom: 1px solid #fff;
 }
 
 td, th {
@@ -7836,7 +7836,7 @@ small {
 }
 
 .card .card-content .card-title {
-  line-height: 48px;
+  line-height: 45px;
 }
 
 .card .card-action {
