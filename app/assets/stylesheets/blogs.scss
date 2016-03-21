@@ -11,11 +11,20 @@
 }
 
 code {
-  background-color: black;
+  color: #b36a00;
+}
+
+pre {
+  background-color: #eaeaea;
   border-radius: 5px;
-  color: white;
+  padding: 1em;
 }
 
 strong {
   font-weight: bold;
+}
+
+.blog-post h3 {
+  text-align: center;
+  color: #03a9f4;
 }
