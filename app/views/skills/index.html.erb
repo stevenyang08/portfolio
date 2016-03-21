@@ -1,31 +1,206 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Listing Skills</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Skill</th>
-      <th>Num of projects</th>
-      <th>Hours</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @skills.each do |skill| %>
-      <tr>
-        <td><%= skill.skill %></td>
-        <td><%= skill.num_of_projects %></td>
-        <td><%= skill.hours %></td>
-        <td><%= link_to 'Show', skill %></td>
-        <td><%= link_to 'Edit', edit_skill_path(skill) %></td>
-        <td><%= link_to 'Destroy', skill, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Skill', new_skill_path %>
+<section class="blog-font">
+  
+  <!--Intro Card-->
+  <div class="row">
+    <div class="col s12 m8 offset-m2">
+      <div class="card orange">
+        <div class="card-content white-text">
+          <div class="card-title center">
+            Nice to meet you!
+          </div>
+          <p>
+            My name is Kelson. I am from the United States, but I have lived more 
+            than 20% of my life in foreign countries and have visited 20+ nations. 
+            Apart from programming languages, I speak English, Dutch, Spanish, 
+            and Italian.
+          </p>
+          <br/>
+          <div class="center">
+            <p>Feel free to check out my</p>
+            <%= link_to "rails projects", rails_path, 
+                    class: "waves-effect waves-light btn light-blue" %>
+            <p>Otherwise, read on to learn a bit about me.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Cards-->
+  <div class="row">
+    
+    <!--Colorado-->
+    <div class="col s12 m4 offset-m2">
+      <div class="card orange">
+        <div class="card-image waves-effect waves-block waves-light">
+          <%= image_tag("colorado.jpg", class: "activator") %>
+        </div>
+        <div class="card-content white-text">
+          <span class="card-title activator">
+            Colorado<i class="fa fa-ellipsis-v right"></i>
+          </span>
+          <p>1993-2011</p>
+        </div>
+        <div class="card-reveal light-blue">
+          <span class="card-title white-text">
+            Colorado<i class="fa fa-times-circle right"></i>
+          </span>
+          <p class="white-text">
+            I was born and raised in Colorado. In high school, when I wasn't skiing 
+            the slopes of Vail or Winter Park, I was either studying for my 7 AP 
+            classes or working 20+ hours per week at a local hospital.
+          </p>
+          <p class="white-text">
+            While I loved the nature in Colorado, I deeply wanted to explore 
+            and learn about the various perspectives in the world - an education 
+            that would require learning outside a classroom.
+          </p>
+          <p class="white-text">
+            I applied only to one university (an American university in Rome, Italy) 
+            and was accepted. So I packed my bags and got ready to leave for the 
+            other side of the planet where I knew no one.
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <!--Italy-->
+    <div class="col s12 m4">
+      <div class="card orange">
+        <div class="card-image waves-effect waves-block waves-light">
+          <%= image_tag("italy.jpg", class: "activator") %>
+        </div>
+        <div class="card-content white-text">
+          <span class="card-title activator">
+            Italy<i class="fa fa-ellipsis-v right"></i>
+          </span>
+          <p>2011-2015</p>
+        </div>
+        <div class="card-reveal light-blue">
+          <span class="card-title white-text">
+            Italy<i class="fa fa-times-circle right"></i>
+          </span>
+          <p class="white-text">
+            I moved to Italy right after high school where I attended an American 
+            university in Rome. While I traveled all around Italy and 10+ other 
+            countries in Europe during my 4 years at the university, my studies 
+            were rigorous as I took enough courses to obtain both a Bachelor's of 
+            Arts in International Affairs and International Business.
+          </p>
+          <p class="white-text">
+            While in Italy, I taught myself Italian when socializing with friends 
+            there. I also met my Dutch wife in the process, so I decided to start 
+            learning Dutch as well.
+          </p>
+          <p class="white-text">
+            When I wasn't studying, I created How2Bee.com with my friend from Kenya. 
+            Despite the website getting over 12,000 visitors in less than 3 weeks, 
+            WordPress proved very frustrating at times to customize, which pushed 
+            me later on to learn programming languages.
+          </p>
+        </div>
+      </div>
+    </div>
+  <!--End Row-->
+  </div>
+  
+  
+  <div class="row">
+    <!--Netherlands-->
+    <div class="col s12 m4 offset-m2">
+      <div class="card orange">
+        <div class="card-image waves-effect waves-block waves-light">
+          <%= image_tag("netherlands.jpg", class: "activator") %>
+        </div>
+        <div class="card-content white-text">
+          <span class="card-title activator">
+            Netherlands<i class="fa fa-ellipsis-v right"></i>
+          </span>
+          <p>2015-2016</p>
+        </div>
+        <div class="card-reveal light-blue">
+          <span class="card-title white-text">
+            Netherlands<i class="fa fa-times-circle right"></i>
+          </span>
+          <p class="white-text">
+            After I graduated from the American university in Rome, my wife and I 
+            moved to the Netherlands where we waited together for her green card so 
+            we could move to San Francisco.
+          </p>
+          <p class="white-text">
+            As we waited for her Visa, I became interested in programming. I took 
+            several courses in Python and even a course in MatLab. At one point, 
+            my wife and I both started taking a Ruby on Rails online bootcamp - 
+            and we were immediately hooked.
+          </p>
+          <p class="white-text">
+            In less than 1.5 months we created 8 Rails projects. We loved it. So 
+            I decided to enroll for Dev Bootcamp in San Francisco.
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <!--San Francisco-->
+    <div class="col s12 m4">
+      <div class="card orange">
+        <div class="card-image waves-effect waves-block waves-light">
+          <%= image_tag("sf.jpg", class: "activator") %>
+        </div>
+        <div class="card-content white-text">
+          <span class="card-title activator">
+            San Francisco<i class="fa fa-ellipsis-v right"></i>
+          </span>
+          <p>2016-Present</p>
+        </div>
+        <div class="card-reveal light-blue">
+          <span class="card-title white-text">
+            San Francisco<i class="fa fa-times-circle right"></i>
+          </span>
+          <p class="white-text">
+            Still to come!
+          </p>
+          <p class="white-text">
+            
+          </p>
+          <p class="white-text">
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Skills Card-->
+  <div class="row">
+    <div class="col s12 m8 offset-m2">
+      <div class="card orange">
+        <div class="card-content white-text">
+          <div class="card-title center">
+            Tech Skills
+          </div>
+          <table class="highlight centered">
+            <thead>
+              <tr>
+                <th>Skill</th>
+                <th>Used in # Projects</th>
+                <th>Hours Used</th>
+              </tr>
+            </thead>
+    
+            <tbody>
+              <% @skills.each do |skill| %>
+                <tr>
+                  <td><%= skill.skill %></td>
+                  <td><%= skill.num_of_projects %></td>
+                  <td><%= skill.hours %></td>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
