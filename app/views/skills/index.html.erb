@@ -189,7 +189,7 @@
             </thead>
     
             <tbody>
-              <% @skills.each do |skill| %>
+              <% @skills.sort_by{|item| item.skill}.each do |skill| %>
                 <tr>
                   <td><%= skill.skill %></td>
                   <td><%= skill.num_of_projects %></td>
