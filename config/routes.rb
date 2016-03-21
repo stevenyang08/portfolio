@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :skills
   root 'pages#home'
   
   get '/devbootcamp', to: 'pages#devbootcamp'
